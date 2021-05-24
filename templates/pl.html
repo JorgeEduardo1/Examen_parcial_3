@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+<title>Hola mundo con python</title> 
+</head> 
+<body  style="background-repeat: no-repeat; background-size: cover;">
+
+	<nav class="navbar navbar-dark bg-dark">
+   <a class="navbar-brand" href="http://127.0.0.1:5000/">Inicio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <a class="navbar-brand" href="http://127.0.0.1:5000/ip/">Informacion Personal</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="http://127.0.0.1:5000/pl/">Perfil Laboral</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="http://127.0.0.1:5000/el/">Experiencia Laboral</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="http://127.0.0.1:5000/pg/">Perfil Gamer</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+
+	
+<!--------------BARRA DE NAVEGACIÓN---------------------------------------------------->
+	
+<!-----------FUNCIÓN PYTHON-------------------------------------------------------><center>
+	<div class="container-md"> 
+		<h1 class="alert alert-primary"role="alert">
+			Perfil Laboral
+		</h1> 
+    <img style="width="300px" height="300px" src="{{url_for('static', filename='tipo6.png')}}">
+    <div>
+          <ol>
+  <li> Certificación ISO 27001, estándar de seguridad de la información acreditado por CIMAT Zacatecas por el Departamento personal de Ingeniería de Software (IngSoft).</li>
+  <li>Certificación en office de Microsoft.</li>
+  <li>Cedula profesional como ofimático.</li>
+  <li>Certificado de participación en “Congreso Internacional de Investigación e Innovación”.</li>
+  <li>Certificaciones de CISCO por parte de emprendimiento, Ciberseguridad y CCNA1. </li>
+</ol>
+    </div>
+	</div>
+  </center>
+
+<!------------FOOTER------------------------------------------------------>
+<footer class="text-center text-white" style="background-color: #f1f1f1;">
+	<div class="container pt-4">
+		<i class="bi bi-facebook"  style="font-size: 2rem; color: cornflowerblue;"></i>
+		<i class="bi bi-whatsapp" style="font-size: 2rem; color: cornflowerblue;"></i>
+		<i class="bi bi-messenger" style="font-size: 2rem; color: cornflowerblue;"></i>
+    </div>
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2020 Copyright:
+    	<a class="text-dark" href="https://www.itesg.edu.mx/">ITESG</a>
+    </div>
+</footer>
+</html>
